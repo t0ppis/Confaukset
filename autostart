@@ -1,0 +1,8 @@
+(sleep 2s && tint2 -c /home/t0ppis/.teemat/Numix_tint2/dark_taskbar/tint2rc) &
+# set background
+nitrogen --restore
+# Monitor 2
+xrandr --output DVI-0 --rotate left
+# start pasystray
+pasystray &
+
